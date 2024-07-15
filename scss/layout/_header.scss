@@ -1,0 +1,132 @@
+@media (min-width: 0px) {
+  .header {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      .header__logo {
+        .logo {
+          width: 163px;
+          height: 18px;
+        }
+      }
+      .div{
+        display: flex;
+        .header__list{
+            display: flex;
+            gap: 33px;
+        }
+      }
+    }
+  }
+}
+
+
+
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    z-index: 999;
+ 
+  }
+  
+  nav {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav > a img {
+    width: 100px;
+    
+  }
+  
+  ul {
+    display: flex;
+    gap: 20px;
+    transition: .5s;
+  }
+  
+  label {
+    display: none;
+  }
+  
+  #burger-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    label {
+      position: relative;
+      display: block;
+      height: 15px;
+      width: 16px;
+    }
+  
+    label::after, label::before, label span {
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      border-radius: 16px;
+      background-color: rgb(0, 0, 0);
+      transition: .3s;
+    }
+  
+    label::before {
+      content: "";
+      top: 0;
+    }
+  
+    label::after {
+      content: "";
+      bottom: 0;
+    }
+  
+    label span {
+      top: 6px;
+    }
+  
+    #burger-toggle:checked ~ label::after {
+      transform: rotate(45deg);
+      bottom: 6px;
+    }
+  
+    #burger-toggle:checked ~ label::before {
+      transform: rotate(-45deg);
+      top: 6px;
+    }
+  
+    #burger-toggle:checked ~ label span {
+      transform: rotate(-45deg);
+      top: 6px;
+    }
+  
+    ul {
+      position: fixed;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+      padding-top: 200px;
+      z-index: -1;
+      flex-direction: column;
+      text-align: center;
+  
+      left: -100vw;
+      right: 100vw;
+  
+    }
+  
+    #burger-toggle:checked ~ ul {
+      left: 0;
+      right: 0;
+    }
+  
+    li a {
+      font-size: 24px;
+    }
+  }
