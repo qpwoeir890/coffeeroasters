@@ -1,0 +1,17 @@
+@media (min-width: 0px) {
+    .section{
+        .section__div{
+            background-image: url(../../../img/1.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            width: 327px;
+            height: 500px;
+            border-radius: 12px;
+            .div-2{
+                display: block;
+            }
+        }
+    }
+}
