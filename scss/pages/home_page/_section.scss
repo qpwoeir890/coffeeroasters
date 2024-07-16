@@ -1,17 +1,94 @@
 @media (min-width: 0px) {
-    .section{
-        .section__div{
-            background-image: url(../../../img/1.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            
-            width: 327px;
-            height: 500px;
-            border-radius: 12px;
-            .div-2{
-                display: block;
-            }
+  .section {
+    .section__div {
+      background-image: url(../img/1.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 100px 24px;
+      width: 100%;
+      height: 500px;
+      border-radius: 12px;
+      .div-2 {
+        display: block;
+        .section__text-1 {
+          font-family: "Fraunces", serif;
+          font-size: 40px;
+          font-weight: 900;
+          line-height: 40px;
+          text-align: center;
+          color: #fff;
         }
+        .section__text-2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: center;
+          color: rgba(254, 252, 247, 1);
+          margin-top: 24px;
+        }
+        .section__btn {
+          width: 217px;
+          height: 56px;
+          background-color: rgba(14, 135, 132, 1);
+          border-radius: 12px;
+          margin-top: 24px;
+          margin-left: 45px;
+          color: #fff;
+          font-family: "Fraunces", serif;
+          font-size: 18px;
+          font-weight: 900;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
     }
+  }
 }
+
+
+@media (min-width: 768px) {
+    .section {
+      .section__div {
+        background-image: url(../img/2.svg);
+        padding: 104px 58px;
+        .div-2 {
+          .section__text-1 {
+            font-size: 48px;
+            line-height: 48px;
+            text-align: left;
+          }
+          .section__text-2 {
+            text-align: left;
+          }
+          .section__btn {
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1100px) {
+    .section {
+      .section__div {
+        background-image: url(../img/2.svg);
+        padding: 117px 85px;
+        height: 600px;
+        .div-2 {
+          .section__text-1 {
+            font-size: 72px;
+            line-height: 72px;
+            text-align: left;
+          }
+          .section__text-2 {
+            text-align: left;
+          }
+          .section__btn {
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
