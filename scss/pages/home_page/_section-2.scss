@@ -1,0 +1,158 @@
+@media (min-width: 0px) {
+  .section-2 {
+    margin-top: 120px;
+    .box__img {
+      color: rgba(131, 136, 143, 1);
+      font-family: "Fraunces", serif;
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 72px;
+      text-align: center;
+    }
+    .section-2__div {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 48px;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0px -25px 50px 0px #ffffff;
+      justify-content: center;
+      .section-2__cart {
+        display: grid;
+        height: 271px;
+        width: 100%;
+        justify-content: center;
+        .section-2__img {
+          margin-left: 10px;
+        }
+        .section-2__text-1 {
+          font-family: "Fraunces", serif;
+          font-size: 24px;
+          font-weight: 900;
+          line-height: 32px;
+          text-align: center;
+          color: rgba(51, 61, 75, 1);
+        }
+        .section-2__text-2 {
+          color: rgba(51, 61, 75, 1);
+          font-family: "Poppins", sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 765px) {
+  .section-2 {
+    .box__img {
+      color: rgba(131, 136, 143, 1);
+      font-family: "Fraunces", serif;
+      font-size: 96px;
+      font-weight: 900;
+      line-height: 72px;
+      text-align: center;
+    }
+    .section-2__div {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 48px;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0px 0px 20px 0px #ffffff;
+      background-color: #ffffff86;
+      justify-content: center;
+      top: -40px;
+      .section-2__cart {
+        display: flex;
+        // justify-content: space-between;
+        width: 573px;
+        height: 193px;
+        align-items: center;
+        margin-left: 40px;
+        .section-2__img {
+          margin-left: 10px;
+          width: 255px;
+          height: 193px;
+        }
+        .div-2 {
+          .section-2__text-1 {
+            font-family: "Fraunces", serif;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 32px;
+            text-align: left;
+            color: rgba(51, 61, 75, 1);
+          }
+          .section-2__text-2 {
+            color: rgba(51, 61, 75, 1);
+            font-family: "Poppins", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: left;
+            margin-top: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1100px) {
+    .section-2 {
+      .box__img {
+        color: rgba(131, 136, 143, 1);
+        font-family: "Fraunces", serif;
+        font-size: 170px;
+        font-weight: 900;
+        line-height: 72px;
+        text-align: center;
+      }
+      .section-2__div {
+        display: flex;
+        box-shadow: 0px 0px 20px 0px #ffffff;
+        background-color: #ffffff86;
+        justify-content: space-between;
+        top: -40px;
+        .section-2__cart {
+          display: grid;
+          width: 256px;
+          height: 398px;
+          margin-left: 0px;
+          .section-2__img {
+            margin-left: 10px;
+            width: 255px;
+            height: 193px;
+          }
+          .div-2 {
+            .section-2__text-1 {
+              font-family: "Fraunces", serif;
+              font-size: 24px;
+              font-weight: 900;
+              line-height: 32px;
+              text-align: center;
+              color: rgba(51, 61, 75, 1);
+            }
+            .section-2__text-2 {
+              color: rgba(51, 61, 75, 1);
+              font-family: "Poppins", sans-serif;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 25px;
+              text-align: center;
+              margin-top: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
